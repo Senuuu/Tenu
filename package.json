@@ -2,7 +2,7 @@
   "name": "ales",
   "version": "7.3.6",
   "description": ".",
-  "main": "./ales/bot.js",
+  "main": "./amazoneAlexa/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
