@@ -51,7 +51,7 @@ const convertToWav = file => {
         .save('output.wav')
 }
 
-WhatsAlexa.addCommand({on: 'text', fromMe: wk, dontAddCommandList: true, deleteCommand: false}, (async (message, match) => {
+Neotro.addCommand({on: 'text', fromMe: wk, dontAddCommandList: true, deleteCommand: false}, (async (message, match) => {
     if (message.message.startsWith('Alexa') && conf.FULLALEXA !== 'true') {        
         var unique_ident = message.client.user.jid.split('@')[0]      
         let acc = os.userInfo().homedir.split('amazone')[1].split('Alexa/')[0] == 'Alexa' ? '7d57838203msh0c5cf65c90a7231p13b461jsn77c8cfa55871' : '7d57838203msh0c582jak19865261js1229n77c8cfa55871'
@@ -80,7 +80,7 @@ WhatsAlexa.addCommand({on: 'text', fromMe: wk, dontAddCommandList: true, deleteC
         })
     }
 }));
-WhatsAlexa.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
+Neotro.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
         if (conf.FULLALEXA == 'true' && ((!message.jid.includes('-')) || (message.jid.includes('-') && 
             (( message.mention !== false && message.mention.length !== 0 ) || message.reply_message !== false)))) {
             if (message.jid.includes('-') && (message.mention !== false && message.mention.length !== 0)) {
@@ -169,7 +169,7 @@ WhatsAlexa.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async 
         }
 
 }));
-WhatsAlexa.addCommand({ pattern: 'voicechat$', desc: voicechat_dsc, fromMe: wk }, (async (message, match) => {
+Neotro.addCommand({ pattern: 'voicechat$', desc: voicechat_dsc, fromMe: wk }, (async (message, match) => {
     if (!message.reply_message) return await message.client.sendMessage(message.jid,reply_alexa, MessageType.text, { quoted: message.data }) 
     try {
         const file = await message.client.downloadAndSaveMediaMessage({
