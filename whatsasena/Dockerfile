@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/jesonpro/ales /root/amazoneAlexa
+RUN git clone https://github.com/jesonpro/Tenu /root/amazoneAlexa
 WORKDIR /root/amazoneAlexa/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
