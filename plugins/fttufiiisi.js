@@ -253,8 +253,8 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
-     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-       }));
+     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
+}));
 Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
@@ -263,8 +263,8 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
-      await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-       }));
+      await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
+}));
 Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
@@ -303,8 +303,8 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
-      await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-      }));
+      await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
+ }));
 Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
@@ -333,8 +333,8 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
-      await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-       }));
+      await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
+}));
 Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
@@ -343,7 +343,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
-      await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+      await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
        }));
 Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
@@ -410,14 +410,6 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
   
       var webimage = await axios.get(`https://${Config.SITE}61289`, { responseType: 'arraybuffer' })
-
-      await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
-
-      await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-       await message.client.sendMessage(message.jid,XN_D,MessageType.text);
-
-  
-      var webimage = await axios.get(`https://${Config.SITE}61292`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
@@ -591,8 +583,8 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
-      await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-       }));
+      await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
+}));
 Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
