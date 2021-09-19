@@ -17,7 +17,7 @@ const EFFECT_DESC = "Text effective රූප බවට පරිවර්තන
 const NEED_WORD = "*ඔබ Ebook URL එකක් ඇතුළත් කළ යුතුය*"
 const XN_D = "*🔞Downloading Your Video*"
 
-Neotro.addCommand({pattern: 'xv2 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -29,7 +29,7 @@ Neotro.addCommand({pattern: 'xv2 ?(.*)', fromMe: true, dontAddCommandList: true}
   
       }));
 
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv2 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -39,7 +39,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
   }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv3 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -49,7 +49,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
   }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv4 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -59,7 +59,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
   }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv5 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -69,7 +69,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
   }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -79,7 +79,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
   }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv7 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -89,7 +89,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv8 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -99,7 +99,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv9 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -109,7 +109,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv10 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -119,7 +119,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv11 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -129,7 +129,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv12 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -139,7 +139,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv13 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -149,7 +149,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv14 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -159,7 +159,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv15 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -169,7 +169,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv16 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -179,7 +179,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv17 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -189,7 +189,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv18 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -199,7 +199,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv19 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -209,7 +209,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv20 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -219,7 +219,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv21 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -229,7 +229,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv22 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -239,7 +239,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv23 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -249,7 +249,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv24 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -259,7 +259,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
      await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv25 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -269,7 +269,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv26 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -279,7 +279,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv27 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -289,7 +289,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv28 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -299,7 +299,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
      await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv29 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -309,7 +309,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
  }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv30 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -319,7 +319,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv31 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -329,7 +329,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv32 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -339,7 +339,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv34 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -349,7 +349,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
  }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv35 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -359,7 +359,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv36 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -369,7 +369,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv37 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -379,7 +379,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv38 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -389,7 +389,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv39 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -399,7 +399,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv40 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -409,7 +409,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv41 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -419,7 +419,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv42 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -429,7 +429,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv43 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -439,7 +439,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv44 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -449,7 +449,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv45 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -459,7 +459,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv46 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -469,7 +469,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv47 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -479,7 +479,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv48 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -489,7 +489,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv49 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -499,7 +499,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv50 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -509,7 +509,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv51 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -519,7 +519,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv52 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -529,7 +529,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv53 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -539,7 +539,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv54 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -549,7 +549,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv55 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -559,7 +559,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv56 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -569,7 +569,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv57 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -579,7 +579,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv58 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -589,7 +589,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv59 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
@@ -599,7 +599,7 @@ Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 }));
-Neotro.addCommand({pattern: 'xv1 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv60 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
