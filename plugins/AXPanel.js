@@ -19,15 +19,18 @@ var ddd = ggg.toString('utf-8')
 
 Neotro.addCommand({pattern: 'xpanel', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
     const rows = [
-        {title: 'Row 1', description: "Hello it's description 1", rowId:"rowid1"},
-        {title: 'Row 2', description: "Hello it's description 2", rowId:"rowid2"}
+        {title: '', description: " ", rowId:"rowid1"},
+        {title: '', description: " ", rowId:"rowid2"},
+        {title: '', description: " ", rowId:"rowid1"},
+        {title: '', description: " ", rowId:"rowid1"},
+        {title: '', description: " ", rowId:"rowid1"}
        ]
        
        const sections = [{title: "Section 1", rows: rows}]
        
        const button = {
-        buttonText: 'Click Me!',
-        description: "Hello it's list message",
+        buttonText: 'See 18+ Panel!',
+        description: "*👩‍🦰Amazone Alexa 🔞+ ලැයිස්තුව*",
         sections: sections,
         listType: 1
        }
