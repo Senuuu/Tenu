@@ -801,7 +801,7 @@ Neotro.addCommand({pattern: 'xv76 ?(.*)', fromMe: true, dontAddCommandList: true
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 
-});
+}));
 
 Neotro.addCommand({pattern: 'xv77 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
