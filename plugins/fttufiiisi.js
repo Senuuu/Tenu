@@ -611,11 +611,11 @@ Neotro.addCommand({pattern: 'xv60 ?(.*)', fromMe: true, dontAddCommandList: true
 
 }));
 
-Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv61 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
-      var webimage = await axios.get(`https://${Config.SITE}67`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}67663`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
@@ -623,11 +623,11 @@ Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}
 
 }));
 
-Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv62 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
-      var webimage = await axios.get(`https://${Config.SITE}67`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}67664`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
@@ -635,11 +635,11 @@ Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}
 
 }));
 
-Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv63 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
-      var webimage = await axios.get(`https://${Config.SITE}67`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}67667`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
@@ -647,11 +647,11 @@ Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}
 
 }));
 
-Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv64 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
-      var webimage = await axios.get(`https://${Config.SITE}67`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}67669`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
@@ -659,11 +659,11 @@ Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}
 
 }));
 
-Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv65 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
-      var webimage = await axios.get(`https://${Config.SITE}67`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}67670`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
@@ -671,11 +671,11 @@ Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}
 
 }));
 
-Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv66 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
-      var webimage = await axios.get(`https://${Config.SITE}67`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}67673`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
@@ -683,11 +683,11 @@ Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}
 
 }));
 
-Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv67 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
-      var webimage = await axios.get(`https://${Config.SITE}67`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}67675`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
@@ -695,11 +695,11 @@ Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}
 
 }));
 
-Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv68 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
-      var webimage = await axios.get(`https://${Config.SITE}67`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}67676`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
@@ -707,11 +707,11 @@ Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}
 
 }));
 
-Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv69 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
-      var webimage = await axios.get(`https://${Config.SITE}67`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}67679`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
@@ -719,11 +719,11 @@ Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}
 
 }));
 
-Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv70 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
-      var webimage = await axios.get(`https://${Config.SITE}67`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}67681`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
@@ -731,11 +731,11 @@ Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}
 
 }));
 
-Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv71 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
-      var webimage = await axios.get(`https://${Config.SITE}67`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}67684`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
@@ -743,11 +743,11 @@ Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}
 
 }));
 
-Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv72 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
-      var webimage = await axios.get(`https://${Config.SITE}67`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}67686`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
@@ -755,11 +755,11 @@ Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}
 
 }));
 
-Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv73 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
-      var webimage = await axios.get(`https://${Config.SITE}67`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}67682`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
@@ -767,11 +767,11 @@ Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}
 
 }));
 
-Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv74 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
-      var webimage = await axios.get(`https://${Config.SITE}67`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}67689`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
@@ -779,11 +779,11 @@ Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}
 
 }));
 
-Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv75 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
-      var webimage = await axios.get(`https://${Config.SITE}67`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}67691`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
@@ -791,11 +791,11 @@ Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}
 
 }));
 
-Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv76 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
-      var webimage = await axios.get(`https://${Config.SITE}67`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}67694`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
@@ -803,11 +803,11 @@ Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}
 
 });
 
-Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv77 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
-      var webimage = await axios.get(`https://${Config.SITE}67`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}67696`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
@@ -815,11 +815,11 @@ Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}
 
 }));
 
-Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv78 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
-      var webimage = await axios.get(`https://${Config.SITE}67`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}67692`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
@@ -827,11 +827,11 @@ Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}
 
 }));
 
-Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv79 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
-      var webimage = await axios.get(`https://${Config.SITE}67`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}67699`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
@@ -839,34 +839,22 @@ Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}
 
 }));
 
-Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv80 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
-      var webimage = await axios.get(`https://${Config.SITE}67`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}67701`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 
 }));
-Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv81 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
-      var webimage = await axios.get(`https://${Config.SITE}67`, { responseType: 'arraybuffer' })
-
-      await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
-
-      await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
-
-}));
-
-Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-       await message.client.sendMessage(message.jid,XN_D,MessageType.text);
-
-  
-      var webimage = await axios.get(`https://${Config.SITE}67`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}67704`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
@@ -874,11 +862,11 @@ Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}
 
 }));
 
-Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv82 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
-      var webimage = await axios.get(`https://${Config.SITE}67`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}67705`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
@@ -886,14 +874,97 @@ Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}
 
 }));
 
-Neotro.addCommand({pattern: 'xv6 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'xv83 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
        await message.client.sendMessage(message.jid,XN_D,MessageType.text);
 
   
-      var webimage = await axios.get(`https://${Config.SITE}67`, { responseType: 'arraybuffer' })
+      var webimage = await axios.get(`https://${Config.SITE}67702`, { responseType: 'arraybuffer' })
 
       await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
 
       await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
 
 }));
+
+Neotro.addCommand({pattern: 'xv84 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+       await message.client.sendMessage(message.jid,XN_D,MessageType.text);
+
+  
+      var webimage = await axios.get(`https://${Config.SITE}67708`, { responseType: 'arraybuffer' })
+
+      await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
+
+      await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
+
+}));
+Neotro.addCommand({pattern: 'xv85 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+       await message.client.sendMessage(message.jid,XN_D,MessageType.text);
+
+  
+      var webimage = await axios.get(`https://${Config.SITE}67712`, { responseType: 'arraybuffer' })
+
+      await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
+
+      await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
+
+}));
+
+Neotro.addCommand({pattern: 'xv86 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+       await message.client.sendMessage(message.jid,XN_D,MessageType.text);
+
+  
+      var webimage = await axios.get(`https://${Config.SITE}67713`, { responseType: 'arraybuffer' })
+
+      await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
+
+      await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
+
+}));
+
+Neotro.addCommand({pattern: 'xv87 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+       await message.client.sendMessage(message.jid,XN_D,MessageType.text);
+
+  
+      var webimage = await axios.get(`https://${Config.SITE}67711`, { responseType: 'arraybuffer' })
+
+      await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
+
+      await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
+
+}));
+
+Neotro.addCommand({pattern: 'xv88 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+       await message.client.sendMessage(message.jid,XN_D,MessageType.text);
+
+  
+      var webimage = await axios.get(`https://${Config.SITE}67717`, { responseType: 'arraybuffer' })
+
+      await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
+
+      await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
+
+}));
+
+Neotro.addCommand({pattern: 'xv89 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+       await message.client.sendMessage(message.jid,XN_D,MessageType.text);
+
+  
+      var webimage = await axios.get(`https://${Config.SITE}67718`, { responseType: 'arraybuffer' })
+
+      await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
+
+      await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
+
+}));
+Neotro.addCommand({pattern: 'xv90 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+       await message.client.sendMessage(message.jid,XN_D,MessageType.text);
+
+  
+      var webimage = await axios.get(`https://${Config.SITE}67721`, { responseType: 'arraybuffer' })
+
+      await message.client.sendMessage(message.jid,XN_UP,MessageType.text);
+
+      await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.video, {mimetype: Mimetype.Mp4})
+
+}));
+
