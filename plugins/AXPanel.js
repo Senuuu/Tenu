@@ -19,11 +19,12 @@ var ddd = ggg.toString('utf-8')
 
 Neotro.addCommand({pattern: 'xpanel', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
     const rows = [
-        {title: '', description: " ", rowId:"rowid1"},
-        {title: '', description: " ", rowId:"rowid2"},
-        {title: '', description: " ", rowId:"rowid1"},
-        {title: '', description: " ", rowId:"rowid1"},
-        {title: '', description: " ", rowId:"rowid1"}
+        {title: '◁●●🔞වීඩියෝ ලැයිස්තුව●●▷', description: "\n\n", rowId:"rowid1"},
+        {title: '◁●●🔞චිත්‍ර කතා Pdf ලැයිස්තුව●●▷', description: "\n\n", rowId:"rowid2"},
+        {title: '◁●●🔞18+ කතා PDF ලැයිස්තුව●●▷', description: "\n\n ", rowId:"rowid1"},
+        {title: '◁●●🔞18+ GIF ස්ටිකර් සෑදීමට Mp4 ෆයිල් ලැයිතුව●●▷', description: "\n\n ", rowId:"rowid1"},
+        {title: '◁●●🔞18+ කතා MP3 ලැයිස්තුව●●▷', description: "\n\n ", rowId:"rowid1"}
+        {title: '◁●●👩‍🦰භාවිතයට උපදෙස්●●▷', description: "\n\n ", rowId:"rowid1"}
        ]
        
        const sections = [{title: "Section 1", rows: rows}]
