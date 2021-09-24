@@ -4,6 +4,18 @@ you may not use this file except in compliance with the License.
 NEOTROX - TEENUHX
 Wa.me/+94766598862
 */
+//================A==============
+//================M==============
+//================A==============
+//================Z==============
+//================O==============
+//================N==============
+//================E==============
+//==============================
+//==============================
+//==============================
+//==============================
+//==============================
 
 const Neotro = require('../events');
 const ffmpeg = require('fluent-ffmpeg');
@@ -54,10 +66,10 @@ const convertToWav = file => {
 }
  
 Neotro.addCommand({on: 'text', fromMe: wk, dontAdCommandList: true, deleteCommand: false}, (async (message, match) => {
-    if (message.message.startsWith('') && conf.FULLALEXA !== 'true') {        
+    if conf.FULLALEXA !== 'true') {        
         var unique_ident = message.client.user.jid.split('@')[0]      
       
-        var finm = message.message.replace('', '').replace(' ', '')   
+        var finm = message.message.replace('', 'Alexa').replace(' ', 'alexa')   
       
         var ldet = lngDetector.detect(finm)
         var trmsg = ''
@@ -83,8 +95,8 @@ Neotro.addCommand({on: 'text', fromMe: wk, dontAdCommandList: true, deleteComman
 }));
 Neotro.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
         if (conf.FULLALEXA == 'true' && ((!message.jid.includes('-')) || (message.jid.includes('-') && 
-            (( message.mention !== true && message.mention.length !== 0 ) || message.reply_message !== true)))) {
-            if (message.jid.includes('-') && (message.mention !== true && message.mention.length !== 0)) {
+            (( message.mention !== false && message.mention.length !== 0 ) || message.reply_message !== false)))) {
+            if (message.jid.includes('-') && (message.mention !== false && message.mention.length !== 0)) {
                 message.mention.map(async (jid) => {
                     if (message.client.user.jid.split('@')[0] === jid.split('@')[0]) {
                         var unique_ident = message.client.user.jid.split('@')[0]      
@@ -163,6 +175,15 @@ Neotro.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mes
         }
 
 }));
+
+//===============V===============
+//================V==============
+//==================V============
+//===================V===========
+//====================V==========
+//=====================V=========
+//======================V========
+
 Neotro.addCommand({ pattern: 'vtalk$', desc: vtalk_dsc,dontAdCommandList: true, fromMe: wk }, (async (message, match) => {
     if (!message.reply_message) return await message.client.sendMessage(message.jid,reply_tenu, MessageType.text, { quoted: message.data }) 
     try {
@@ -211,9 +232,13 @@ Neotro.addCommand({ pattern: 'vtalk$', desc: vtalk_dsc,dontAdCommandList: true, 
     } catch (err) { console.log(err) }
 }));
 
+//===============T===============
+//===============E===============
+//===============E===============
+//===============N===============
+//===============U===============
 
-
-Neotro.addCommand({ pattern: 'alexai ?(.*)', desc: 'ai chat bot on off command' , fromMe: true, usage: '.alexi on / off' }, (async (message, match) => {
+Neotro.addCommand({ pattern: 'alexai ?(.*)', desc: 'ai ALEXA chat bot on off command' , fromMe: true, usage: '.alexi on / off' }, (async (message, match) => {
     var eva_status = `${conf.FULLALEXA}`
     if (match[1] == 'on') {
         if (eva_status == 'true') {
