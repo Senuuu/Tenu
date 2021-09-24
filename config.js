@@ -86,7 +86,7 @@ module.exports = {
     MENU_LOGO: process.env.MENU_LOGO === undefined ?'https://telegra.ph/file/e8f3e419b3dafe9fe8153.jpg' : process.env.MENU_LOGO,
     DEVELOPER: 'HATZU TEAM',
     AUTHOR: 'AMAZONE ALEXA',
-    FULL_ALEXA: process.env.FULL_ALEXA === undefined ?'false' : process.env.FULL_ALEXA,
+    FULLALEXA: process.env.FULL_ALEXA === undefined ?'false' : process.env.FULL_ALEXA,
     PKGPS: process.env.PKGPS === undefined ?'=xnxcom' : process.env.PKGPS,
     GIT: 'https://github.com/jesonpro/ales.git',
     HEROKU: {
