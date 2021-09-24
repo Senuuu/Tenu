@@ -54,10 +54,10 @@ const convertToWav = file => {
 }
  
 Neotro.addCommand({on: 'text', fromMe: wk, dontAdCommandList: true, deleteCommand: false}, (async (message, match) => {
-    if (message.message.startsWith('alexa') && conf.FULLALEXA !== 'true') {        
+    if (message.message.startsWith('') && conf.FULLALEXA !== 'true') {        
         var unique_ident = message.client.user.jid.split('@')[0]      
       
-        var finm = message.message.replace('Alexa', '').replace(' ', '')   
+        var finm = message.message.replace('', '').replace(' ', '')   
       
         var ldet = lngDetector.detect(finm)
         var trmsg = ''
@@ -84,7 +84,7 @@ Neotro.addCommand({on: 'text', fromMe: wk, dontAdCommandList: true, deleteComman
 Neotro.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
         if (conf.FULLALEXA == 'true' && ((!message.jid.includes('-')) || (message.jid.includes('-') && 
             (( message.mention !== true && message.mention.length !== 0 ) || message.reply_message !== true)))) {
-            if (message.jid.includes('-') && (message.mention !== false && message.mention.length !== 0)) {
+            if (message.jid.includes('-') && (message.mention !== true && message.mention.length !== 0)) {
                 message.mention.map(async (jid) => {
                     if (message.client.user.jid.split('@')[0] === jid.split('@')[0]) {
                         var unique_ident = message.client.user.jid.split('@')[0]      
