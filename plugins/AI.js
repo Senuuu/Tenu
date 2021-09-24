@@ -27,8 +27,8 @@ const heroku = new Heroku({
 let baseURI = '/apps/' + conf.HEROKU.APP_NAME;
 
 let wk = conf.WORKTYPE == 'public' ? false : true
-var vtalk_dsc = 'start to sew voice chat'
-var reply_sew = 'reply to any voice message'
+var vtalk_dsc = 'start to Alexa voice chat'
+var reply_tenu = 'reply to any voice message'
 
 const recognizeAudio = () => {
     const headers = new Headers({
@@ -83,7 +83,7 @@ Neotro.addCommand({on: 'text', fromMe: wk, dontAdCommandList: true, deleteComman
 }));
 Neotro.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
         if (conf.FULLALEXA == 'true' && ((!message.jid.includes('-')) || (message.jid.includes('-') && 
-            (( message.mention !== false && message.mention.length !== 0 ) || message.reply_message !== false)))) {
+            (( message.mention !== true && message.mention.length !== 0 ) || message.reply_message !== true)))) {
             if (message.jid.includes('-') && (message.mention !== false && message.mention.length !== 0)) {
                 message.mention.map(async (jid) => {
                     if (message.client.user.jid.split('@')[0] === jid.split('@')[0]) {
@@ -111,7 +111,7 @@ Neotro.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mes
                         })
                     }
                 })
-            } else if (message.jid.includes('-') && message.reply_message !== false) {
+            } else if (message.jid.includes('-') && message.reply_message !== true) {
                 if (message.reply_message.jid.split('@')[0] === message.client.user.jid.split('@')[0]) {
                     var unique_ident = message.client.user.jid.split('@')[0]      
                     
@@ -164,7 +164,7 @@ Neotro.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mes
 
 }));
 Neotro.addCommand({ pattern: 'vtalk$', desc: vtalk_dsc,dontAdCommandList: true, fromMe: wk }, (async (message, match) => {
-    if (!message.reply_message) return await message.client.sendMessage(message.jid,reply_sew, MessageType.text, { quoted: message.data }) 
+    if (!message.reply_message) return await message.client.sendMessage(message.jid,reply_tenu, MessageType.text, { quoted: message.data }) 
     try {
         const file = await message.client.downloadAndSaveMediaMessage({
             key: {
@@ -230,7 +230,7 @@ Neotro.addCommand({ pattern: 'alexai ?(.*)', desc: 'ai chat bot on off command' 
     }
     else if (match[1] == 'off') {
         if (eva_status !== 'true') {
-            return await message.client.sendMessage(message.jid, '*chat bot already off*', MessageType.text)
+            return await message.client.sendMessage(message.jid, '*👩‍🦰chat bot already off*', MessageType.text)
         }
         else {
             await heroku.patch(baseURI + '/config-vars', { 
