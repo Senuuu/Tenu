@@ -214,7 +214,7 @@ Neotro.addCommand({ pattern: 'vtalk$', desc: vtalk_dsc,dontAdCommandList: true, 
 
 
 Neotro.addCommand({ pattern: 'alexai ?(.*)', desc: 'ai chat bot on off command' , fromMe: true, usage: '.alexi on / off' }, (async (message, match) => {
-    var eva_status = `${Config.FULLALEXA}`
+    var eva_status = `${conf.FULLALEXA}`
     if (match[1] == 'on') {
         if (eva_status == 'true') {
             return await message.client.sendMessage(message.jid, '*Already on 👩‍🦰*', MessageType.text)
