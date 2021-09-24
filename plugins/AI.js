@@ -66,7 +66,7 @@ const convertToWav = file => {
 }
  
 Neotro.addCommand({on: 'text', fromMe: wk, dontAdCommandList: true, deleteCommand: false}, (async (message, match) => {
-    if conf.FULLALEXA !== 'true') {        
+    if (conf.FULLALEXA !== 'true') {        
         var unique_ident = message.client.user.jid.split('@')[0]      
       
         var finm = message.message.replace('', 'Alexa').replace(' ', 'alexa')   
