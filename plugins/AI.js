@@ -94,8 +94,7 @@ Neotro.addCommand({on: 'text', fromMe: wk, dontAdCommandList: true, deleteComman
     }
 }));
 Neotro.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
-        if (conf.FULLALEXA == 'true' && ((!message.jid.includes('-')) || (message.jid.includes('-') && 
-            (( message.mention !== false && message.mention.length !== 0 ) || message.reply_message !== false)))) {
+        if (conf.FULLALEXA == 'true') {
             if (message.jid.includes('-') && (message.mention !== false && message.mention.length !== 0)) {
                 message.mention.map(async (jid) => {
                     if (message.client.user.jid.split('@')[0] === jid.split('@')[0]) {
