@@ -5,18 +5,30 @@ NEOTROX - TEENUHX
 */
 
 const fs = require("fs");
+const os = require("os");
 const path = require("path");
 const events = require("./events");
 const chalk = require('chalk');
 const config = require('./config');
+const axios = require('axios');
+const Heroku = require('heroku-client');
 const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
 const {Message, StringSession, Image, Video} = require('./whatsasena/');
 const { DataTypes } = require('sequelize');
 const { getMessage } = require("./plugins/sql/greetings");
-const axios = require('axios');
 const got = require('got');
+const simpleGit = require('simple-git');
+const git = simpleGit();
+const crypto = require('crypto');
+const nw = '```Blacklist Defected!```'
+const heroku = new Heroku({
+    token: config.HEROKU.API_KEY
+});
+let baseURI = '/apps/' + config.HEROKU.APP_NAME;
+const Language = require('./language');
+const Lang = Language.getString('updater');
 
-// ════════════════════SQL◽◽◽◽
+// Sql
 const WhatsAsenaDB = config.DATABASE.define('WhatsAsena', {
     info: {
       type: DataTypes.STRING,
@@ -27,20 +39,18 @@ const WhatsAsenaDB = config.DATABASE.define('WhatsAsena', {
         allowNull: false
     }
 });
-
 fs.readdirSync('./plugins/sql/').forEach(plugin => {
     if(path.extname(plugin).toLowerCase() == '.js') {
         require('./plugins/sql/' + plugin);
     }
 });
-
 const plugindb = require('./plugins/sql/plugin');
 var OWN = { ff: '94766598862,0' }
 String.prototype.format = function () {
     var i = 0, args = arguments;
     return this.replace(/{}/g, function () {
       return typeof args[i] != 'undefined' ? args[i++] : '';
-   });
+    });
 };
 if (!Date.now) {
     Date.now = function() { return new Date().getTime(); }
