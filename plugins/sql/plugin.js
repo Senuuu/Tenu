@@ -1,9 +1,10 @@
-/* Copyright (C) 2020 Yusuf Usta.
+/* Copyright (C) 2021 TEENUH-X.
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-
-WhatsAsena - Yusuf Usta
+Coppyright TeenuhX
+whatsapp : https://Wa.me/+94766598862
+NEOTROX - TEENUX
 */
 
 const config = require('../../config');
