@@ -5,7 +5,7 @@ NEOTROX - TEENUHX
 */
 
 // Komutları burada tutacağız.
-var config = require('./config');
+var config = require('./hatzu');
 var Commands = [];
 
 function addCommand(info, func) {
