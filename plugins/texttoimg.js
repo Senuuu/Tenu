@@ -4,13 +4,13 @@ you may not use this file except in compliance with the License.
 N9EOTROX - TEENUHX API එකක් හරි උස්සලා තිබ්බොත් රෙපෝ එකටම Coppyright ගහනවා
 */
 
-const Asena = require('../events');
+const Neotro = require('../events');
 const Config = require('../hatzu');
 const config = require('../config');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const axios = require('axios');
-let am = Config.WORKTYPE == 'public' ? false : true
+let am = config.WORKTYPE == 'public' ? false : true
 const EFFECT_DESC = "Text effective රූප බවට පරිවර්තනය කිරීම සඳහා විධාන කට්ටලයක්."
 const NEED_WORD = "*ඔබ වචනයක් ඇතුළත් කළ යුතුය*"
 
@@ -272,71 +272,71 @@ Neotro.addCommand({pattern: 'emoji ?(.*)', fromMe: am, dontAddCommandList: true}
 //==========================ZENS API=====================================================================
 //==========================TEXT PRO=====================================================================
 
-Neotro.addCommand({pattern: '9q ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'transformer ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-    var webimage = await axios.get(`https://z${Config.ZSITE}/api/textpro/😄?text=${match[1]}&apikey=${Config.ZAPI}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://z${Config.ZSITE}/api/textpro/transformer?text=${match[1]}&apikey=${Config.ZAPI}`, { responseType: 'arraybuffer' })
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: config.BOT_NAME})
 
     }));
 
-Neotro.addCommand({pattern: '9q ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'christmas ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-    var webimage = await axios.get(`https://z${Config.ZSITE}/api/textpro/😄?text=${match[1]}&apikey=${Config.ZAPI}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://z${Config.ZSITE}/api/textpro/christmas?text=${match[1]}&apikey=${Config.ZAPI}`, { responseType: 'arraybuffer' })
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: config.BOT_NAME})
 
     }));
 
-Neotro.addCommand({pattern: '9q ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'blackpink ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-    var webimage = await axios.get(`https://z${Config.ZSITE}/api/textpro/😄?text=${match[1]}&apikey=${Config.ZAPI}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://z${Config.ZSITE}/api/textpro/blackpink?text=${match[1]}&apikey=${Config.ZAPI}`, { responseType: 'arraybuffer' })
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: config.BOT_NAME})
 
     }));
 
-Neotro.addCommand({pattern: '9q ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'dropwater ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-    var webimage = await axios.get(`https://z${Config.ZSITE}/api/textpro/😄?text=${match[1]}&apikey=${Config.ZAPI}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://z${Config.ZSITE}/api/textpro/dropwater?text=${match[1]}&apikey=${Config.ZAPI}`, { responseType: 'arraybuffer' })
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: config.BOT_NAME})
 
     }));
 
-Neotro.addCommand({pattern: '9q ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'thunder ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-    var webimage = await axios.get(`https://z${Config.ZSITE}/api/textpro/😄?text=${match[1]}&apikey=${Config.ZAPI}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://z${Config.ZSITE}/api/textpro/thunder?text=${match[1]}&apikey=${Config.ZAPI}`, { responseType: 'arraybuffer' })
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: config.BOT_NAME})
 
     }));
 
-Neotro.addCommand({pattern: '9q ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'magma ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-    var webimage = await axios.get(`https://z${Config.ZSITE}/api/textpro/😄?text=${match[1]}&apikey=${Config.ZAPI}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://z${Config.ZSITE}/api/textpro/magma?text=${match[1]}&apikey=${Config.ZAPI}`, { responseType: 'arraybuffer' })
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: config.BOT_NAME})
 
     }));
-Neotro.addCommand({pattern: '9q ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'neonlight ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-    var webimage = await axios.get(`https://z${Config.ZSITE}/api/textpro/😄?text=${match[1]}&apikey=${Config.ZAPI}`, { responseType: 'arraybuffer' })
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: config.BOT_NAME})
-
-    }));
-
-Neotro.addCommand({pattern: '9q ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-    var webimage = await axios.get(`https://z${Config.ZSITE}/api/textpro/😄?text=${match[1]}&apikey=${Config.ZAPI}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://z${Config.ZSITE}/api/textpro/neonlight?text=${match[1]}&apikey=${Config.ZAPI}`, { responseType: 'arraybuffer' })
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: config.BOT_NAME})
 
     }));
 
-Neotro.addCommand({pattern: '9q ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'neondevil ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-    var webimage = await axios.get(`https://z${Config.ZSITE}/api/textpro/😄?text=${match[1]}&apikey=${Config.ZAPI}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://z${Config.ZSITE}/api/textpro/neondevil?text=${match[1]}&apikey=${Config.ZAPI}`, { responseType: 'arraybuffer' })
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: config.BOT_NAME})
 
     }));
 
-Neotro.addCommand({pattern: '9q ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'harrypotter ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-    var webimage = await axios.get(`https://z${Config.ZSITE}/api/textpro/😄?text=${match[1]}&apikey=${Config.ZAPI}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://z${Config.ZSITE}/api/textpro/harrypotter?text=${match[1]}&apikey=${Config.ZAPI}`, { responseType: 'arraybuffer' })
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: config.BOT_NAME})
+
+    }));
+
+Neotro.addCommand({pattern: 'imglitch ?(.*)', fromMe: am, dontAddCommandList: true}, (async (message, match) => {
+    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
+    var webimage = await axios.get(`https://z${Config.ZSITE}/api/textpro/impressiveglitch?text=${match[1]}&apikey=${Config.ZAPI}`, { responseType: 'arraybuffer' })
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: config.BOT_NAME})
 
     }));
